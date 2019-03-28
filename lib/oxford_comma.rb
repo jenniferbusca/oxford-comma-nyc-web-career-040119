@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  new_arr = []
   string = ""
   if array.length == 1
     return array[0]
