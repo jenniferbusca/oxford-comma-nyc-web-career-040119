@@ -11,6 +11,7 @@ def oxford_comma(array)
     new_arr << array[-1]
     new_arr.join(" ")
   elsif array.length > 3
+  
     array.insert(-2, "and")
     string = array.join(", ")
   end
