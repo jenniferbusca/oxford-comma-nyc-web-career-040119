@@ -11,7 +11,7 @@ def oxford_comma(array)
     new_arr << array[-1]
     new_arr.join(" ")
   elsif array.length > 3
-    array[0..-2].each {|ele | puts ele + ","}
+    array[0..-2].each {|ele | ele + ","}
     array.insert(-2, "and")
     string = array.join(" ")
   end
