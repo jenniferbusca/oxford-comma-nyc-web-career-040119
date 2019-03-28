@@ -15,6 +15,7 @@ def oxford_comma(array)
       new_arr << ele + ","
     end
     new_arr.insert(-2, "and")
+    new_arr << array[-1]
     string = new_arr.join(" ")
   end
 end
