@@ -14,7 +14,7 @@ def oxford_comma(array)
     array[0..-2].each do |ele | 
       new_arr << ele + ","
     end
-    new_arr.insert(-2, "and")
+    new_arr.insert(-1, "and")
     new_arr << array[-1]
     string = new_arr.join(" ")
   end
