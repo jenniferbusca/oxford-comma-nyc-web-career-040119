@@ -13,6 +13,6 @@ def oxford_comma(array)
   elsif array.length > 3
     array[0..-2].each {|ele | ele + ","}
     array.insert(-2, "and")
-    string = array.join(", ")
+    string = array.join(" ")
   end
 end
